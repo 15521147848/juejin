@@ -1,0 +1,48 @@
+#personal .head{
+	height:1.2rem;
+	background:#fff;
+	line-height: 1.2rem;
+}
+#personal .data{
+	height:3rem;
+	background:#fff;
+}
+#personal .data span{
+	vertical-align:middle;
+}
+#personal .data .userImg{
+	width:1rem;
+	height:1rem;
+	border-radius:50%;
+	background:blue;
+}
+#personal .data .compile{
+	width:1.1rem;
+	height:.6rem;
+	text-align:center;
+	line-height: .6rem;
+	color:#007FFF;
+	border:1px solid #007FFF;
+	border-radius:2px;
+}
+#personal .my-row::after{
+	content:" ";
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height: 1px;
+	background:#e1e1e1;
+}
+#personal .my-row::before{
+	content:" ";
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height: 1px;
+	background:#e1e1e1;
+}
+#personal .clearAfter::after{
+	height: 0px;
+}

@@ -1,0 +1,30 @@
+/*app.vue 样式*/
+body{
+	
+}
+/*选项卡*/
+.option{
+	background:#fff;
+	height:1rem;
+	line-height: 1rem;
+}
+.option .my-col-3 span{
+	vertical-align:middle;
+	width:.6rem;
+	height:.6rem;
+	font-size:.6rem;
+	line-height: .6rem;
+	color:#ccc;
+}
+.router-link-active span{
+	color:#007FFF !important;
+}
+.option .my-col-3 span:hover{
+}
+/*切换动画*/
+.fade-enter-active, .fade-leave-active{
+	transition:all .5s;
+}
+.fade-enter-active, .fade-leave-active{
+	transform:scale(0.4);
+}

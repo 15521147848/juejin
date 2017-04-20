@@ -1,0 +1,12 @@
+#message .head{
+	height:.8rem;
+	background:#007FFF;
+}
+#message .head .my-col-6{ 
+	line-height: .8rem;
+	color:rgba(255,255,255,0.5);
+}
+#message .head .router-link-active{
+	color:#fff !important;
+	border-bottom:3px solid #fff;
+}

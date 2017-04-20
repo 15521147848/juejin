@@ -1,0 +1,187 @@
+/*顶部搜索框*/
+
+#search .searchbar{
+	background:#007FFF;
+	box-sizing:border-box;
+	height:1rem;
+	line-height: 1rem;
+}
+#search .searchbar .search{
+	height:.6rem;
+	outline-style:none;
+	border:0px;
+	font-size:.18rem;
+	text-indent:.4rem;
+}
+#search .searchbar  i{
+	width:.4rem;
+	font-size:.4rem;
+	color:#ccc;
+}
+/*轮播图*/
+#search .swipe{
+	height:2.5rem;
+	overflow:hidden;
+}
+#search .swipe img{
+	width:100%;
+	vertical-align: top;
+}
+/*四个分栏*/
+#search .four{
+	height:1.5rem;
+	background:#fff;
+	display:table;
+}
+#search .four .my-col-3{
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+}
+/*四个图标*/
+#search .four .my-col-3 .lcon{
+	display:block;
+	margin:0 auto;
+	width:.7rem;
+	height:.7rem;
+}
+#search .four .my-col-3:nth-child(1) .lcon{
+	background:url('/src/assets/img/fire.png');
+	background-size:100%;
+}
+#search .four .my-col-3:nth-child(2) .lcon{
+	background:url('/src/assets/img/coll.png');
+	background-size:100%;
+}
+#search .four .my-col-3:nth-child(3) .lcon{
+	background:url('/src/assets/img/trum.png');
+	background-size:100%;
+}
+#search .four .my-col-3:nth-child(4) .lcon{
+	background:url('/src/assets/img/special.png');
+	background-size:100%;
+}
+/*沸点*/
+#search .boiling{
+	background:#fff;
+	border-bottom:1px solid #ccc;
+}
+
+#search .boiling .my-col-10 .head{
+	vertical-align: top;
+}
+#search .boiling .boilingImg{
+	display:inline-block;
+	width:.4rem;
+	height:.4rem;
+	overflow:hidden;
+	background:url('/src/assets/img/boiling.png');
+	background-size:100%;
+}
+#search .boiling .icon{
+	font-size:.3rem;
+	line-height: .4rem;
+}
+/*滚动图*/
+#search .roll{
+	height:2.3rem;
+	background:#fff;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	padding:.2rem;
+}
+#search .roll .roller{
+	width:29.3rem;
+	height:2.3rem;
+}
+#search .roll .roller span{
+	display:inline-block;
+	height:2.3rem;
+	border-radius:8px;
+	margin-right:.3rem;
+
+}
+#search .roll .roller .mod{
+	width:5rem;
+	height:2.3rem;
+	overflow:hidden;
+	vertical-align:top;
+}
+#search .roll .roller .mod span{ 
+	display:inline-block;
+	width:4rem;
+	height:2.3rem;
+	padding:.5rem;
+	color:#fff;
+	font-size:.4rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+	white-space: normal;
+	word-break: break-all;
+	
+}
+#search .roll .roller .all{
+	width:2.5rem;
+	text-align:center;
+	vertical-align: top;
+	font-size:.4rem;
+	border:1px solid #111;
+	box-sizing:border-box;
+	padding:.4rem;
+	color:#007FFF;
+}
+/*热门文章*/
+#search .hotArticle{
+	background:#fff;
+	border-bottom:1px solid #ccc;
+}
+#search .hotArticle .my-col-10{
+}
+#search .hotArticle .my-col-10 .head{
+	vertical-align: top;
+}
+#search .hotArticle .hotImg{
+	display:inline-block;
+	width:.4rem;
+	height:.4rem;
+	background:url('/src/assets/img/fire.png');
+	background-size:100%;
+}
+/*文章列表*/
+#search .articleList{
+	height:1.6rem;
+	background:#fff;
+}
+/*一像素边框*/
+#search .articleList::after{
+	content:" ";
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:1px;
+	background:#e1e1e1;
+	-webkit-transform-origin:left bottom;
+	transform-origin:left bottom;
+}
+#search .articleList .title{
+	display:inline-block;
+	vertical-align: top;
+	overflow:hidden;
+	/*text-overflow:ellipsis;*/
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+}
+#search .articleList .Img{
+	display:inline-block;
+	width:1.2rem;
+	height:1.2rem;
+	position:absolute;
+	right:.2rem;
+	top:.2rem;
+	border-radius:.1rem;
+}

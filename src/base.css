@@ -1,0 +1,446 @@
+/*一些公共样式 以及自定义简单栅格系统*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background:#EFEFF1;
+}
+html{
+	font-size:100px;
+}
+/*响应式*/
+@media  screen and (max-width:360px) {
+	html{
+		font-size:50px;
+	}
+}
+@media  screen and (min-width:360px) and (max-width:375px) {
+	html{
+		font-size:50px;
+	}
+}
+@media  screen and (min-width:375px) and (max-width:667px) {
+	html{
+		font-size:52.0833px;
+	}
+}
+@media  screen and (min-width:320px) and (max-width:568px) {
+	html{
+		font-size:44.4444px;
+	}
+}
+@media  screen and (min-width:568px) and (max-width:768px) {
+	html{
+		font-size:57.2222px;
+	}
+}
+@media  screen and (min-width:768px) and (max-width:1024px) {
+	html{
+		font-size:100px;
+	}
+}
+@media  screen and (min-width:1024px) and (max-width:1366px) {
+	html{
+		font-size:100px;
+	}
+}
+
+/*清除样式*/
+li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+b{
+	font-weight:normal;
+}
+i{
+	font-style:normal;
+}
+/*标题大小*/
+h1{font-size:.64rem;}
+h2{font-size:.48rem;}
+h3{font-size:.3744rem;}
+h4{font-size:.32rem;}
+h5{font-size:.2656rem;}
+h6{font-size:.24rem;}
+p{font-size:.32rem;}
+/*自定义栅格系统*/
+.my-content{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	font-size:0px;
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+.my-row{
+	display:block;
+	width:100%;
+	height:auto;
+	padding: 0px;
+	margin: 0;
+	position:relative;
+	top:0;
+	left:0;
+	font-size:0px;
+	box-sizing:border-box;
+}
+ .my-col-1 , .my-col-2 , .my-col-3 , .my-col-4 , .my-col-5 , .my-col-6 , .my-col-7 , .my-col-8 , .my-col-9 , .my-col-10 , .my-col-11 , .my-col-12{
+	display:inline-block;
+	height:auto;
+	word-wrap: break-word; 
+	word-break: normal; 
+	vertical-align: top;
+	text-align:left;
+	font-size:.32rem;
+	box-sizing:border-box;
+}
+.my-col-1{
+	width:8.33333332%;
+}
+.my-col-2{
+	width:16.66666665%;
+}
+.my-col-3{
+	width:24.9%;
+}
+.my-col-4{
+	width:33.33333332%;
+}
+.my-col-5{
+	width:41.66666665%;
+}
+.my-col-6{
+	width:49.9%;
+}
+.my-col-7{
+	width:58.33333332%;
+}
+.my-col-8{
+	width:66.66666665%;
+}
+.my-col-9{
+	width:75%;
+}
+.my-col-10{
+	width:83.33333332%;
+}
+.my-col-11{
+	width:91.66666665%;
+}
+.my-col-12{
+	width:99.9%;
+}
+
+/*自定义文本位置*/
+/*textLeft 文本居左*/
+.textLeft{
+	text-align:left;
+}
+/*textCenter 文本居中*/
+.textCenter{
+	text-align:center;
+}
+/*textRight 文本居右*/
+.textRight{
+	text-align:right;
+}
+
+/*自定义padding值*/
+
+
+/*pd-num padding值  5 10 15 20 30 40 50*/
+/*padding值 50px*/
+.pd-50{padding: 1rem;}
+/*padding值 40px*/
+.pd-40{padding:.8rem;}
+/*padding值 30px*/
+.pd-30{padding:.6rem;}
+/*padding值 20px*/
+.pd-20{padding:.4rem;}
+/*padding值 15px*/
+.pd-15{padding:.3rem;}
+/*padding值 10px*/
+.pd-10{padding:.2rem;}
+/*padding值 5px*/
+.pd-5{padding:.1rem;}
+/*padding值 0px*/
+.pd-0{padding:0rem;}
+
+/*pd-t-num padding-top值 5 10 15 20 30 40 50*/
+
+/*padding-top 50px*/
+.pd-t-50{padding-top: 1rem;}
+/*padding-top 40px*/
+.pd-t-40{padding-top:.8rem;}
+/*padding-top 30px*/
+.pd-t-30{padding-top:.6rem;}
+/*padding-top 20px*/
+.pd-t-20{padding-top:.4rem;}
+/*padding-top 15px*/
+.pd-t-15{padding-top:.3rem;}
+/*padding-top 10px*/
+.pd-t-10{padding-top:.2rem;}
+/*padding-top值 5px*/
+.pd-t-5{padding-top:.1rem;}
+/*padding-top值 0px*/
+.pd-t-0{padding-top:0rem;}
+
+/*pd-b-num padding-bottom值 5 10 15 20 30 40 50*/
+/*padding-bottom 50px*/
+.pd-b-50{padding-bottom: 1rem;}
+/*padding-bottom 40px*/
+.pd-b-40{padding-bottom:.8rem;}
+/*padding-bottom 30px*/
+.pd-b-30{padding-bottom:.6rem;}
+/*padding-bottom 20px*/
+.pd-b-20{padding-bottom:.4rem;}
+/*padding-bottom 15px*/
+.pd-b-15{padding-bottom:.3rem;}
+/*padding-bottom 10px*/
+.pd-b-10{padding-bottom:.2rem;}
+/*padding-bottom 5px*/
+.pd-b-5{padding-bottom:.1rem;}
+/*padding-bottom 0px*/
+.pd-b-0{padding-bottom:0rem;}
+
+
+
+/*pd-l-num padding-left 5 10 15 20 30 40 50*/
+/*padding-left 50px*/
+.pd-l-50{padding-left: 1rem;}
+/*padding-left 40px*/
+.pd-l-40{padding-left:.8rem;}
+/*padding-left 30px*/
+.pd-l-30{padding-left:.6rem;}
+/*padding-left 20px*/
+.pd-l-20{padding-left:.4rem;}
+/*padding-left 15px*/
+.pd-l-15{padding-left:.3rem;}
+/*padding-left 10px*/
+.pd-l-10{padding-left:.2rem;}
+/*padding-left 5px*/
+.pd-l-5{padding-left:.1rem;}
+/*padding-left 0px*/
+.pd-l-0{padding-left:0rem;}
+
+
+
+/*pd-r-num padding-right 5 10 15 20 30 40 50*/
+/*padding-left 50px*/
+.pd-r-50{padding-right: 1rem;}
+/*padding-left 40px*/
+.pd-r-40{padding-right:.8rem;}
+/*padding-left 30px*/
+.pd-r-30{padding-right:.6rem;}
+/*padding-left 20px*/
+.pd-r-20{padding-right:.4rem;}
+/*padding-left 15px*/
+.pd-r-15{padding-right:.3rem;}
+/*padding-left 10px*/
+.pd-r-10{padding-right:.2rem;}
+/*padding-right 5px*/
+.pd-r-5{padding-right:.1rem;}
+/*padding-right 0px*/
+.pd-r-0{padding-right:0rem;}
+
+
+/*自定义margin值*/
+/*mg-num margin值  5 10 15 20 30 40 50*/
+/*margin 50px*/
+.mg-50{margin: 1rem;}
+/*margin 40px*/
+.mg-40{margin:.8rem;}
+/*margin 30px*/
+.mg-30{margin:.6rem;}
+/*margin 20px*/
+.mg-20{margin:.4rem;}
+/*margin 15px*/
+.mg-15{margin:.3rem;}
+/*margin 10px*/
+.mg-10{margin:.2rem;}
+/*margin值 5px*/
+.mg-5{margin:.1rem;}
+/*margin值 0px*/
+.mg-0{margin:0rem;}
+
+
+/*mg-t-num margin-top值 5 10 15 20 30 40 50*/
+
+/*margin-top 50px*/
+.mg-t-50{margin-top: 1rem;}
+/*margin-top 40px*/
+.mg-t-40{margin-top:.8rem;}
+/*margin-top 30px*/
+.mg-t-30{margin-top:.6rem;}
+/*margin-top 20px*/
+.mg-t-20{margin-top:.4rem;}
+/*margin-top 15px*/
+.mg-t-15{margin-top:.3rem;}
+/*margin-top 10px*/
+.mg-t-10{margin-top:.2rem;}
+/*margin-top值 5px*/
+.mg-t-5{margin-top:.1rem;}
+/*margin-top值 0px*/
+.mg-t-0{margin-top:0rem;}
+
+/*mg-b-num margin-bottom值 5 10 15 20 30 40 50*/
+/*margin-bottom 50px*/
+.mg-b-50{margin-bottom: 1rem;}
+/*margin-bottom 40px*/
+.mg-b-40{margin-bottom:.8rem;}
+/*margin-bottom 30px*/
+.mg-b-30{margin-bottom:.6rem;}
+/*margin-bottom 20px*/
+.mg-b-20{margin-bottom:.4rem;}
+/*margin-bottom 15px*/
+.mg-b-15{margin-bottom:.3rem;}
+/*margin-bottom 10px*/
+.mg-b-10{margin-bottom:.2rem;}
+/*margin-bottom 5px*/
+.mg-b-5{margin-bottom:.1rem;}
+/*margin-bottom 0px*/
+.mg-b-0{margin-bottom:0rem;}
+
+
+/*mg-l-num margin-left 5 10 15 20 30 40 50*/
+/*margin-left 50px*/
+.mg-l-50{margin-left: 1rem;}
+/*margin-left 40px*/
+.mg-l-40{margin-left:.8rem;}
+/*margin-left 30px*/
+.mg-l-30{margin-left:.6rem;}
+/*margin-left 20px*/
+.mg-l-20{margin-left:.4rem;}
+/*margin-left 15px*/
+.mg-l-15{margin-left:.3rem;}
+/*margin-left 10px*/
+.mg-l-10{margin-left:.2rem;}
+/*margin-left 5px*/
+.mg-l-5{margin-left:.1rem;}
+/*margin-left 0px*/
+.mg-l-0{margin-left:0rem;}
+
+
+/*mg-r-num margin-right 5 10 15 20 30 40 50*/
+/*margin-left 50px*/
+.mg-r-50{margin-right: 1rem;}
+/*margin-left 40px*/
+.mg-r-40{margin-right:.8rem;}
+/*margin-left 30px*/
+.mg-r-30{margin-right:.6rem;}
+/*margin-left 20px*/
+.mg-r-20{margin-right:.4rem;}
+/*margin-left 15px*/
+.mg-r-15{margin-right:.3rem;}
+/*margin-left 10px*/
+.mg-r-10{margin-right:.2rem;}
+/*margin-right 5px*/
+.mg-r-5{margin-right:.1rem;}
+/*margin-right 0px*/
+.mg-r-0{margin-right:0rem;}
+
+/*自定义定位属性*/
+/*固定定位fixed*/
+.myFixed{
+	position:fixed;
+	z-index: 1;
+}
+/*相对定位 absolute*/
+.myAbsolute{
+	position:absolute;
+	z-index: 1;
+}
+/*绝对定位relative*/
+.myRelative{
+	position:relative;
+	z-index: 1;
+}
+/*浮动*/
+.floatL{
+	float:left;
+}
+.floatR{
+	float:right;
+}
+
+/*定位位置*/
+/*top值 0 5 10 15 20 30*/
+.t30{top:.6rem;}
+.t20{top:.4rem;}
+.t15{top:.3rem;}
+.t10{top:.2rem;}
+.t5{top:.1rem;}
+.t0{top:0;}
+
+/*bottom值 0 5 10 15 20 30*/
+.b30{bottom:.6rem;}
+.b20{bottom:.4rem;}
+.b15{bottom:.3rem;}
+.b10{bottom:.2rem;}
+.b5{bottom:.1rem;}
+.b0{bottom:0;}
+
+/*left值 0 5 10 15 20 30*/
+.l30{left:.6rem;}
+.l20{left:.4rem;}
+.l15{left:.3rem;}
+.l10{left:.2rem;}
+.l5{left:.1rem;}
+.l0{left:0;}
+
+/*right值 0 5 10 15 20 30*/
+.r3{right:.6rem;}
+.r2{right:.4rem;}
+.r15{right:.3rem;}
+.r10{right:.2rem;}
+.r5{right:.1rem;}
+.r0{right:0;}
+
+/*宽度100%*/
+.w100{
+	width:100%;
+}
+/*更改样式 display*/
+.dpIn{display:inline;}
+.dpInBk{display:inline-block;}
+.dpBk{display:block;}
+/*字体颜色*/
+.colorFFF{color:#fff;}
+.color000{color:#000;}
+.colorCCC{color:#ccc;}
+.color111{color:#111;}
+.colorRED{color:red;}
+.colorBLUE{color:blue;}
+.colorGREEN{color:green;}
+
+
+/*字体大小*/
+.fontS20{font-size:.4rem;}
+.fontS18{font-size:.36rem;}
+.fontS16{font-size:.32rem;}
+.fontS14{font-size:.28rem;}
+.fontS12{font-size:.24rem;}
+.fontS10{font-size:.2rem;}
+
+
+/*常用背景颜色*/
+.bgFFF{
+	background:#FFF;
+}
+.bgRED{
+	background:red;
+}
+
+.bg000{
+	background:#000;
+}
+.bgCCC{
+	background:#ccc;
+}

@@ -1,0 +1,65 @@
+#label .head{
+	background:#fff;
+	box-shadow:0px 1px 2px #ccc;
+}
+#label .list{
+	box-sizing:border-box;
+	border-bottom:3px solid transparent;
+	text-align:center;
+}
+#label .router-link-active{
+	border-bottom:3px solid #000;
+	color:#000;
+}
+#label .Img{
+	display:inline-block;
+	width:.6rem;
+	height:.6rem;
+	background:red;
+}
+#label .div{
+	vertical-align: top;
+	height:.3rem;
+	line-height: .3rem
+}
+#label .recom{
+	color:#666;
+}
+#label .attention{
+	display:inline-block;
+	width:1.4rem;
+	height:.6rem;
+	text-align:center;
+	line-height: .6rem;
+	color:#fff;
+	background:#37C700;
+	border-radius:4px;
+}
+#label .unattention{
+	display:inline-block;
+	width:1.4rem;
+	height:.6rem;
+	text-align:center;
+	line-height: .6rem;
+	color:#37C700;
+	border:1px solid #37C700;
+	border-radius:4px;
+}
+#label .attention::before{
+	content:" ";
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:1px;
+	background:#e1e1e1;
+}
+#label .unattention::before{
+	content:" ";
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:1px;
+	background:#e1e1e1;
+}

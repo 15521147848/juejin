@@ -1,0 +1,183 @@
+/*选项卡*/
+
+/*头部列表*/
+.headList{
+	height:.8rem;
+	background:#007FFF;
+	z-index: 1;
+}
+/*热门推荐*/
+.hot{
+	background:#fff;
+}
+.hot .head{
+	height:.8rem;
+	color:#006CFF;
+}
+/*移动端一像素边框*/
+.hot .title::before{
+	content:" ";
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:1px;
+	background:#e1e1e1;
+	-webkit-transform-origin:left bottom;
+	transform-origin:left bottom;
+}
+/*热门推荐小图标*/
+.hot .head .icon-huoyan1{
+	display:inline-block;
+	width:.36rem;
+	height:.36rem;
+	font-size:.6rem;	
+	line-height: .36rem;
+	vertical-align: middle;
+} 
+/*热门推荐文章*/
+.hot .title{
+	height:auto;
+}
+/*文章标题*/
+.hot .title .world{
+	display:inline-block;
+	width:100%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+}
+/*用户头像*/
+.hot .title .img{
+	display:inline-block;
+	width:.9rem;
+	height:.9rem;
+}
+.hot .title .img img{
+	width:100%;
+	height:100%;
+}
+/*小图标*/
+.hot .title .icon{
+	display:inline-block;
+	height:.3rem;
+	line-height: .3rem;
+
+}
+.hot .title .icon i{
+	vertical-align: middle;
+	margin-right:.1rem;
+}
+/*文章列表*/
+/*头部信息*/
+.article .header{
+	height:.6rem;
+}
+.article .header .useImg{
+	display:inline-block;
+	width:.6rem;
+	height:.6rem;
+}
+.article .header .useImg img{
+	width:100%;
+	height:100%;
+}
+/*用户名*/
+.article .header .usn{
+	height:.3rem;
+	font-size:.3rem;
+	line-height: .3rem;
+	vertical-align: top;
+	color:#0000CC;
+}
+.article .header .usnOther{
+	height:.3rem;
+	line-height: .3rem;
+	margin: 0;
+	font-size:.2rem;
+	vertical-align: top;
+	/*float:left;*/
+}
+/*文章内容*/
+.article .main{
+	background:#fff;
+}
+.article .main .img{
+	display:inline-block;
+	width: 100%;
+	height:2.4rem;
+	background:#111;
+}
+.article .main .img img{
+	width:100%;
+	height:100%;
+}
+/*文章标题*/
+.article .main .title{
+	width:100%;
+	height:.8rem;
+	line-height: .8rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+}
+.article .main .summ span{
+	display:inline-block;
+	width:100%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+}
+.article .main .summ b{
+	font-size:.28rem;
+	color:blue;
+}
+.article .main .link{
+	width:100%;
+	height:1rem;
+	overflow: hidden;
+	border:1px solid #e1e1e1;
+}
+.article .main .link .linkImg{
+	display:inline-block;
+	float:left;
+	width: 1rem;
+	height: 1rem;
+}
+.article .main .link .linkImg img{
+	width:100%;
+	height:100%;
+}
+.article .main .link .linkTitle{
+	width:auto;
+	height:1rem;
+	padding: .2rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+}
+/*点赞和评论*/
+.article .main .gv{
+	height:.4rem;
+	line-height: .4rem;
+}
+.article .main .gv i{
+	vertical-align: middle;
+	font-size:.44rem;
+}
+.article .main .gv span{
+	display:inline-block;
+	text-align:center;
+
+}
+.article .main .gv .icon-give:hover{
+	color:green;
+}

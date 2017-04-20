@@ -1,0 +1,12 @@
+#set .head{
+	background:#fff;
+	height:1.2rem;
+	line-height:1.2rem;
+}
+#set .opt{
+	height:1rem;
+	line-height:1rem;
+}
+#set .mt-switch{
+margin-top:.2rem;
+}
