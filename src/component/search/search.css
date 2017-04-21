@@ -46,19 +46,19 @@
 	height:.7rem;
 }
 #search .four .my-col-3:nth-child(1) .lcon{
-	background:url('/src/assets/img/fire.png');
+	background:url('./src/assets/img/fire.png');
 	background-size:100%;
 }
 #search .four .my-col-3:nth-child(2) .lcon{
-	background:url('/src/assets/img/coll.png');
+	background:url('./src/assets/img/coll.png');
 	background-size:100%;
 }
 #search .four .my-col-3:nth-child(3) .lcon{
-	background:url('/src/assets/img/trum.png');
+	background:url('./src/assets/img/trum.png');
 	background-size:100%;
 }
 #search .four .my-col-3:nth-child(4) .lcon{
-	background:url('/src/assets/img/special.png');
+	background:url('./src/assets/img/special.png');
 	background-size:100%;
 }
 /*沸点*/

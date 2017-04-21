@@ -1,6 +1,6 @@
 <template>
 <div id="set">
-<div class="my-content pd-t-20">
+<div class="my-content pd-t-20 " >
 	<div class="my-row pd-l-20 head myFixed t0 l0">
 		<div class="my-col-1">
 			<router-link to="/me"><i class="icon iconfont icon-left"></i></router-link>
@@ -57,6 +57,7 @@
 	<div class="my-row opt  pd-l-20 pd-r-20 mg-t-10">
 		<div class="my-col-12 textCenter fontS16 colorCCC">掘金4.10·juejin</div>
 	</div>
+
 </div>
 </div>
 </template>

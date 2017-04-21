@@ -1,6 +1,6 @@
 <template>
 <div id="me">
-<div class="my-content">
+<div class="my-content " >
 <div class="my-row head">
 	<div class="mt-col-12 fontS20 textCenter colorFFF">
 	我
@@ -59,7 +59,6 @@
 <router-link to="/set" class="my-row list myLike pd-10 ">
 		<div class="my-col-1 textLeft icon iconfont icon-option colorCCC"></div>
 		<div class="my-col-11">设置</div>
-		
 </router-link>
 </div>
 </div>
